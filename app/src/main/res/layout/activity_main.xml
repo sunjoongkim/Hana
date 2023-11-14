@@ -21,30 +21,35 @@
         android:layout_height="match_parent"
         android:layout_marginTop="120dp"
         app:layout_constraintTop_toBottomOf="@+id/layout_top"
-        android:background="#e4edec">
+        android:background="#e4edec"
+        android:clipChildren="false">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:clipChildren="false">
 
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/view_pager"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="250dp"
                 app:layout_constraintTop_toBottomOf="@+id/layout_top"
                 app:layout_constraintLeft_toLeftOf="parent"
+                android:clipToPadding="false"
+                android:clipChildren="false"
                 android:background="#e4edec"/>
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/bg_center_1"/>
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="240dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/bg_center_2"/>
 
