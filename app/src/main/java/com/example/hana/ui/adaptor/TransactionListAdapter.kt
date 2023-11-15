@@ -1,16 +1,13 @@
 package com.example.hana.ui.adaptor
 
-import android.content.Context
-import android.content.Intent
+import android.graphics.Color
 import android.speech.tts.TextToSpeech
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hana.HistoryActivity
 import com.example.hana.R
-import com.example.hana.data.Account
 import com.example.hana.data.Transaction
 
 class TransactionListAdapter(private val dataList: MutableList<Transaction>) :
@@ -42,6 +39,8 @@ class TransactionListAdapter(private val dataList: MutableList<Transaction>) :
         holder.textCategory.text = account.category
         holder.textClient.text = account.client
         holder.textTransaction.text = account.transaction
+        if (account.transaction.startsWith("+"))
+            holder.textTransaction.setTextColor(Color.parseColor("#53908b"))
         holder.textBalance.text = account.balance
     }
 

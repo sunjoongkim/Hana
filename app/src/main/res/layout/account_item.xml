@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="행복knowhow통장"
-        android:textSize="18sp"
+        android:textSize="17sp"
         android:textStyle="bold"
         android:textColor="@color/black"/>
 
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_name"
         android:text="입출금 141-910364-09707"
-        android:textSize="20sp"
+        android:textSize="17sp"
         android:textColor="#A2A2A2"/>
 
     <ImageView
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="28,440,163"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:textColor="@color/black"/>
 
@@ -92,7 +92,7 @@
         android:gravity="center"
         android:text="가져오기"
         android:textStyle="bold"
-        android:textSize="20sp"
+        android:textSize="17sp"
         android:textColor="#017a75" />
 
     <View
@@ -111,7 +111,7 @@
         android:gravity="center"
         android:text="보내기"
         android:textStyle="bold"
-        android:textSize="20sp"
+        android:textSize="17sp"
         android:textColor="#017a75" />
 
 </RelativeLayout>

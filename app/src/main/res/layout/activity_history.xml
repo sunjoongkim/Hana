@@ -76,20 +76,20 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp"
-                android:padding="20dp"
+                android:layout_marginRight="30dp"
                 android:background="@drawable/round_white_background"
-                android:elevation="10dp">
+                android:elevation="10dp"
+                android:padding="20dp">
 
                 <TextView
                     android:id="@+id/text_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="행복knowhow통장"
-                    android:textSize="18sp"
-                    android:textColor="#696969"/>
+                    android:textColor="#696969"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/text_number"
@@ -97,69 +97,69 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/text_name"
                     android:text="141-910364-09707"
-                    android:textSize="18sp"
-                    android:textColor="#A2A2A2"/>
+                    android:textColor="#A2A2A2"
+                    android:textSize="16sp" />
 
                 <ImageView
                     android:layout_width="18dp"
                     android:layout_height="18dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="3dp"
                     android:layout_below="@+id/text_name"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
                     android:layout_toRightOf="@+id/text_number"
-                    android:background="@drawable/ic_copy"/>
+                    android:background="@drawable/ic_copy" />
 
                 <TextView
                     android:id="@+id/text_balance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1,232,500원"
-                    android:layout_marginTop="15dp"
-                    android:layout_alignParentRight="true"
                     android:layout_below="@+id/text_number"
-                    android:textSize="26sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="15dp"
+                    android:text="5,032,500원"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/text_balance_sub"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="출금가능잔액 1,215,233원"
-                    android:layout_alignParentRight="true"
                     android:layout_below="@+id/text_balance"
-                    android:textSize="16sp"
-                    android:textColor="#969696"/>
+                    android:layout_alignParentRight="true"
+                    android:text="출금가능잔액 5,032,500원"
+                    android:textColor="#969696"
+                    android:textSize="16sp" />
 
 
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_alignParentRight="true"
-                    android:background="@drawable/ic_etc"/>
+                    android:background="@drawable/ic_etc" />
 
                 <TextView
-                    android:layout_width="140dp"
+                    android:layout_width="130dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="20dp"
                     android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/round_btn_white"
                     android:gravity="center"
                     android:text="가져오기"
-                    android:textSize="16sp"
                     android:textColor="#969696"
-                    android:background="@drawable/round_btn_white"/>
+                    android:textSize="16sp" />
 
                 <TextView
-                    android:layout_width="140dp"
+                    android:layout_width="130dp"
                     android:layout_height="30dp"
-                    android:layout_marginRight="20dp"
-                    android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/round_btn_green"
                     android:gravity="center"
                     android:text="이체"
-                    android:textSize="16sp"
                     android:textColor="@color/white"
-                    android:background="@drawable/round_btn_green"/>
+                    android:textSize="16sp" />
 
             </RelativeLayout>
 
@@ -173,28 +173,28 @@
                 <ImageView
                     android:layout_width="34dp"
                     android:layout_height="34dp"
-                    android:layout_marginTop="3dp"
                     android:layout_marginLeft="25dp"
-                    android:background="@drawable/ic_search"/>
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/ic_search" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:gravity="center"
                     android:layout_marginRight="15dp"
                     android:layout_toLeftOf="@+id/btn_setting"
+                    android:gravity="center"
                     android:text="1개월 . 전체 . 최신"
-                    android:textSize="16sp"
-                    android:textColor="#696969"/>
+                    android:textColor="#696969"
+                    android:textSize="16sp" />
 
                 <ImageView
                     android:id="@+id/btn_setting"
                     android:layout_width="34dp"
                     android:layout_height="34dp"
+                    android:layout_alignParentRight="true"
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="25dp"
-                    android:layout_alignParentRight="true"
-                    android:background="@drawable/ic_setting"/>
+                    android:background="@drawable/ic_setting" />
 
             </RelativeLayout>
 
@@ -206,7 +206,6 @@
             </androidx.recyclerview.widget.RecyclerView>
 
         </LinearLayout>
-
 
 
     </com.amar.library.ui.StickyScrollView>

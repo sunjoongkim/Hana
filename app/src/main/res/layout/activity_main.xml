@@ -5,21 +5,21 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e4edec">
+    android:background="@drawable/background_gradient">
 
     <ImageView
         android:id="@+id/layout_top"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="100dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:background="@drawable/bg_top"/>
+        android:src="@drawable/bg_top"/>
 
     <ScrollView
         android:id="@+id/layout_scroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="95dp"
         app:layout_constraintTop_toBottomOf="@+id/layout_top"
         android:background="#e4edec"
         android:clipChildren="false">
@@ -45,18 +45,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="240dp"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/bg_center_1"/>
+                android:src="@drawable/bg_center_1"/>
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="240dp"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/bg_center_2"/>
+                android:layout_height="180dp"
+                android:src="@drawable/bg_center_2"/>
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="520dp"
-                android:background="@drawable/bg_center_3"/>
+                android:layout_height="450dp"
+                android:src="@drawable/bg_center_3"/>
 
             <View
                 android:layout_width="match_parent"

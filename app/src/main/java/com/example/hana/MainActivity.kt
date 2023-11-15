@@ -33,9 +33,9 @@ class MainActivity : AppCompatActivity() {
         accountList.add(Account("하나닷컴통장", "입출금 141-223001-98871", "123,600"))
         binding.viewPager.adapter = AccountListAdapter(accountList)
         binding.viewPager.currentItem = 1
-        binding.viewPager.setPageTransformer(MarginPageTransformer(100))
+        binding.viewPager.setPageTransformer(MarginPageTransformer(50))
         binding.viewPager.offscreenPageLimit = 1
-        binding.viewPager.setPadding(200, 0, 200, 0)
+        binding.viewPager.setPadding(100, 0, 100, 0)
     }
 
 }

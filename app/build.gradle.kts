@@ -53,4 +53,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     implementation("com.github.amarjain07:StickyScrollView:1.0.3")
+
 }
