@@ -100,6 +100,9 @@ class HistoryActivity : AppCompatActivity() {
         transactionList.add(createTransaction("09.25(월) 21:56:21", "타행이체(카카오뱅크)", "유정훈", "+ 5,000원", "잔액 7,338원"))
         transactionList.add(createTransaction("09.30(토) 20:48:24", "체크카드", "더벤티전주휴먼시", "- 2,800원", "잔액 4,538원"))
         transactionList.add(createTransaction("10.04(수) 05:22:17", "하나카드", "하나카드", "- 3,300원", "잔액 1,238원"))
+
+        여기서부터  +1,185,934 해주시구  입금된걸로 해주세요.박정한 국민은행3555 10.05 목요일 15:04:32
+
         transactionList.add(createTransaction("10.06(금) 21:00:33", "대체", "유정훈", "+ 1,800,000원", "잔액 2,401,238원"))
 
         transactionList.add(createTransaction("10.06(금) 21:03:48", "", "", "- 3,200,000원", "잔액 2,401,238원"))
@@ -169,6 +172,9 @@ class HistoryActivity : AppCompatActivity() {
         transactionList.add(createTransaction("11.02(목) 15:57:01", "체크카드", "세븐일레븐범박타", "- 3,800원", "잔액 36,832원"))
         transactionList.add(createTransaction("11.04(토) 12:32:11", "체크카드", "진미옥설렁탕", "- 20,000원", "잔액 16,832원"))
         transactionList.add(createTransaction("11.06(월) 03:11:03", "체크카드", "씨유(CU)신정파인", "- 3,800원", "잔액 13,032원"))
+
+        여기서부터도  +1,185,934 해주시구  입금된걸로 해주세요.박정한 국민은행3555 10.05 월요일 15:06:48
+
         transactionList.add(createTransaction("11.07(화) 17:18:41", "체크카드", "세븐일레븐범박타", "- 3,800원", "잔액 9,232원"))
         transactionList.add(createTransaction("11.08(수) 21:07:20", "타행이체(카카오뱅크)", "유정훈", "+ 3,200,000원", "잔액 3,209,232원"))
         transactionList.add(createTransaction("11.08(수) 21:32:11", "", "", "- 3,200,000원", "잔액 9,232원"))
